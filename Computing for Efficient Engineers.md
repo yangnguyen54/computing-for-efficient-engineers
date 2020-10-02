@@ -54,7 +54,6 @@ There are several special parameters that are defined in the context of a functi
 |    `$?` | Expands to the exit status of the most recently executed command. 0 if unsuccessful |
 |    `$$` | Expands to the process ID of the shell                       |
 |    `$0` | Expands to the name of the shell or shell script             |
-|         |                                                              |
 
 These conveniently solve a problem with our last function. `mkcdir` can only create a single directory! With a slight tweak in parameter use and an additional for loop, we now have
 
@@ -257,9 +256,10 @@ There are dedicated teams for rolling out each of these Linux distributions to t
 
 A Raspberry Pi with 4 GB is around \$50. You can plug in a keyboard (and a mouse, I guess), hook it up to a monitor, and be up and running with Linux. You have access to major programming languages such as C and Python. You can program in those languages through the command line. You can have access to all the code you develop through version control. It is the ideal development platform, especially for people new to the command line.
 
-If you have a Mac, none of that applies to you. You should definitely keep using your own computer, unless you have certain electronics projects that you are interested in pursuing. In which case, feel free to consult with IEEE Makerspace! We have a team of experienced students that can advise you in terms of hardware requirements for any electronics project.
+If you have a Mac, none of that applies to you. You should definitely keep using your own computer, unless you have certain electronics projects that you are interested in pursuing. In which case, feel free to consult with IEEE Makerspace! We have a team of experienced students that can advise you in terms of hardware requirements for any electronics project.|
 
 
 
+#### Closing Remarks
 
-
+Thank you very much for joining! [fill out our feedback form!](https://forms.gle/WgnUjYsAkLjonrbY6)
