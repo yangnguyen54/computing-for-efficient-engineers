@@ -48,6 +48,7 @@ cout << "Address of pointer p2 is: " << &p2 << endl;
 ```
 Output:     
 ![](pointer_images/intro_to_pointer2.JPG)
+
 Illustration:       
 ![](pointer_images/pointer_example2.JPG)
 ## Relation between array and pointer
