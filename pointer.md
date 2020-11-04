@@ -16,7 +16,6 @@ cout << "Address of pointer p is: " << &p << endl;
 Output:     
 ![](pointer_images/intro_to_pointer.JPG)
 
-
 The value of pointer P is referencing the memory address of variable x. This explain why the value stored in p is equal to the value of x.
 
 Illustration:
@@ -49,7 +48,6 @@ cout << "Value of pointer p2 is: " << p2 << endl;
 cout << "Address of pointer p2 is: " << &p2 << endl;
 ```
 Output:
-
 ![](pointer_images/intro_to_pointer2.JPG)
 
 Illustration:
@@ -80,7 +78,7 @@ Output:
 Even though the values was stored through pointers, the values were printed through array.
 ## malloc() vs calloc() and free()
 There are two ways to allocate memory
-###1. malloc(size_t size)
+### 1. malloc(size_t size)
 size: size of the block in bytes        
 malloc() dynamically allocates a block of memory of a given data type in bytes. It returns a void type pointer which can be casted to any data type.
 
@@ -91,7 +89,7 @@ int* arr = (int*)malloc(5 * sizeof(int));
 illustration:       
 ![](pointer_images/malloc.JPG)
 
-###2. calloc(size_t num, size_t size)
+### 2. calloc(size_t num, size_t size)
 num: total number of blocks         
 size: size of a block in bytes          
 calloc dynamically allocates the requested memory size in blocks and return a pointer of type void
@@ -103,11 +101,11 @@ int* arr = (int*)calloc(5, * sizeof(int));
 Illustration:       
 ![](pointer_images/calloc.JPG)
 
-###3. Difference
+### 3. Difference
 Ideally malloc() and calloc do the same thing, the only differences are
 1. Malloc doesn't initialize the memory allocation where as calloc initializes the allocated memory to zero.
 2. Malloc is technically faster because it doesn't require that initialization step, however the difference in speed is not noticeable.
-###4. Free(size_t* ptr)
+### 4. Free(size_t* ptr)
 After your done with using the allocated memory, it is best to deallocate the memory so it helps reduce waste of memory by freeing it.
 ```angular2
 free(arr);
