@@ -1,5 +1,5 @@
 # Deeper Understanding of Pointers
-#What is a pointer?
+# What is a pointer?     
 A pointer is a variable that can store/point to a memory address of a different variable. A variable that is indicated as a pointer has a "*" before the variable name. An example of how pointers are used and visualized are shown below:
 ```angular2
 int x = 5;
@@ -22,7 +22,7 @@ The value of pointer P is referencing the memory address of variable x. This exp
 Illustration:
 
 ![](pointer_images/pointer_example.jpg)
-#Pointers can be reference to other pointers
+# Pointers can be reference to other pointers
 A pointer can be pointed towards another pointer that is pointed towards a variable. The logical assumption of pointers referencing pointers is shown below:
 
 ```angular2
@@ -55,7 +55,7 @@ Output:
 Illustration:
 
 ![](pointer_images/pointer_example2.JPG)
-#Relation between array and pointer
+# Relation between array and pointer
 The most common way that pointers are utilized is through arrays. An array is considered as a list of elements where each element of an array points to an address locations that is ordered arithmetically based on the datatype.
 For example these two initialization are the same:
 ```angular2
@@ -112,7 +112,7 @@ After your done with using the allocated memory, it is best to deallocate the me
 ```angular2
 free(arr);
 ```
-#How mapping address work for a 2D matrix
+# How mapping address work for a 2D matrix
 There are two ways you can allocate the memory if wanted to view things in 2D
 ### 1. View the mapping of addresses of a matrix as a 2D array
 This method of allocating memory for a 2D matrix allocates the column first, then allocates the number of columns per row. The content and the result is shown below:
