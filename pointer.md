@@ -18,9 +18,8 @@ Output:
 
 The value of pointer P is referencing the memory address of variable x. This explain why the value stored in p is equal to the value of x.
 
-Illustration:
-
-![](pointer_images/pointer_example.jpg)
+Illustration:       
+![](pointer_images/pointer_example.JPG)
 ## Pointers can be reference to other pointers
 A pointer can be pointed towards another pointer that is pointed towards a variable. The logical assumption of pointers referencing pointers is shown below:
 
@@ -47,11 +46,9 @@ cout << "Address of pointer p1 is: " << &p1 << endl;
 cout << "Value of pointer p2 is: " << p2 << endl;
 cout << "Address of pointer p2 is: " << &p2 << endl;
 ```
-Output:
+Output:     
 ![](pointer_images/intro_to_pointer2.JPG)
-
-Illustration:
-
+Illustration:       
 ![](pointer_images/pointer_example2.JPG)
 ## Relation between array and pointer
 The most common way that pointers are utilized is through arrays. An array is considered as a list of elements where each element of an array points to an address locations that is ordered arithmetically based on the datatype.
